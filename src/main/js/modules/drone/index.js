@@ -653,7 +653,7 @@ Drone.prototype.cuboida = function(/* Array */ blocks, w, h, d, overwrite) {
   });
   return this;
 };
-Drone.MAX_VOLUME = 1 * MILLION;
+Drone.MAX_VOLUME = 1600;
 Drone.MAX_SIDE = 1 * THOUSAND;
 
 var tooBig = function(w, h, d ) {
